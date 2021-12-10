@@ -10,7 +10,7 @@ Instaling
 6. Run the app.
 
 ```bash
-git clone https://github.com/Smilkoski/wiki
+git clone https://github.com/Smilkoski/wiki.git
 cd wiki
 python -m venv .venv
 .venv\Scripts\activate
