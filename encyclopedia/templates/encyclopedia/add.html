@@ -6,10 +6,10 @@
 
 {% block body %}
     <h1>Add New Encyclopedia</h1>
-    <form  method="post" action="{% url 'add' %}">
+    <form  method="post">
         {% csrf_token %}
         {{ enc_form.as_p }}
-        <input type="submit">
+        <input class="btn btn-secondary"  type="submit">
     </form>
 
 {% endblock %}
