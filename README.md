@@ -7,7 +7,7 @@ Instaling
 
 `cd wiki`
 
-3. Create a virtualenv with Python 3.10.0
+3. Create a virtualenv with Python 3.8.*
 
 `python -m venv .venv`
 
